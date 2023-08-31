@@ -17,10 +17,15 @@ To compile a new master server
   > (namely servergroup push)
   > which appearently broke normal serverlist requests
 
-- Open [GamespyMasterServer.sln](./GamespyMasterServer.sln)
+- (VISUAL STUDIO METHOD) Open [GamespyMasterServer.sln](./GamespyMasterServer.sln)
 
   2017 has been used, but the SLN file states that version 10 thru 12 are targetted
  Run Build or Rebuild
  Find the built binary in /bin/debug
+
+- (Ubuntu dotnet method)
+Make sure you have `dotnet` available
+You can use the snap package for the SDK version:
+`sudo snap install dotnet`
 
  - The database schema is documented in [schema.md](./schema.md)
